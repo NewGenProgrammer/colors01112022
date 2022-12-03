@@ -29,7 +29,7 @@ CircleAvatar(
                          style: TextStyle(
                            fontFamily: 'Pacifico',
                            fontSize: 30,
-                         fontWeight: FontWeight.bold,
+                         fontWeight: FontWeight.normal,
                            color:  Colors.white70,
                          ),
                         ),
