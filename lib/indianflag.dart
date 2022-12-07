@@ -13,20 +13,29 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.white70,
           body:SafeArea(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment:  CrossAxisAlignment.end,
+mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Container(
+              Container(
                   height: 100,
                   width: double.infinity,
                   color: Colors.orange,
                 ),
 
-                Container(
-                  height: 100,
-                  width: double.infinity,
-                  color: Colors.white,
-                ),
+   Container(
+  height: 100,
+  width: double.infinity,
+child: Image.asset('assets/images/wheel.jpg'),
+   color: Colors.white,
+     // decoration: BoxDecoration(
+     //   image: DecorationImage(
+     //     image: AssetImage('assets/images/wheel.jpg'),
+     //   ),
+     //
+     //   shape: BoxShape.rectangle,
+     // ),
+),
+
+
                 Container(
                   height: 100,
                   width: double.infinity,

@@ -29,8 +29,8 @@ flutter:
   uses-material-design: true
   assets:
   - assets/images/remi.jpg
-  - assets/images/wheel.png
-
+  - assets/images/wheel.jpg
+  - assets/images/loginui.jpg
 
   fonts:
     - family: Pacifico
